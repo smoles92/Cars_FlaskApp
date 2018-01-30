@@ -27,5 +27,6 @@ install required imports: **_pip install -r /path/to/requirements.txt_**
 
 #### **Note: 
 Once the _app.py_ file is executed, the database _database.db_, will be created in the current directory.
-The loading of the database objects occurs within the app.py file, therefore should the _app.py_ file be executed subsequent times, the 
-database should be deleted before these subsequent executions, to avoid clashes between keys by re-loading the same data. 
+The loading of the database objects occurs within the _app.py_ file, therefore should the _app.py_ file be executed subsequent times, the 
+database should be deleted before these subsequent executions, to avoid clashes between keys by re-loading the same data. The same is true
+when executing _test.py_, the database file should be cleared from the file directory if present before executing.
