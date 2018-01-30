@@ -5,6 +5,7 @@
 This project implements a Python Flask API using Sqlite database. The project consists of two core folders:
 1. **Cars_FlaskApp**
 * app.py - The Flask application, separated by the required routes
+* test.py - Unittest file which can be executed in python
 * requirements.txt - A text file of all required environment imports to run the application
 2. **Bash Scripts**
 * *cars.sh* - Uses cURL to return JSON data for all cars information, without chassis_id 
