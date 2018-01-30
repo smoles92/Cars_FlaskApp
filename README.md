@@ -8,7 +8,7 @@ This project implements a Python Flask API using Sqlite database. The project co
 * test.py - Unittest file which can be executed in python
 * requirements.txt - A text file of all required environment imports to run the application
 2. **Bash Scripts**
-* *cars.sh* - Uses cURL to return JSON data for all cars information, without chassis_id 
+* *cars.sh* - Uses cURL to return JSON data for all car information, without chassis_id 
 * *car1.sh* - Uses cURL to return JSON data for cars based on id, without chassis_id
 * *carnew.sh* - Uses cURL to post JSON data for a new car. After executing, the entry will appear in the "cars" route
 * *avgprice.sh* - Uses cURL to post JSON average price
