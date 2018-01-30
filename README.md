@@ -23,6 +23,7 @@ install required imports: **_pip install -r /path/to/requirements.txt_**
 ## Bash execution (cURL)
 * The bash (_.sh_) scripts contain the required privledges to execute and retrieve the data.
 * These can be executed on the unix command line - Example: user ~ **_./cars.sh_**
+* These scripts should be run while the application is executing on **http://127.0.0.1:5000**
 
 #### **Note: 
 Once the _app.py_ file is executed, the database _database.db_, will be created in the current directory.
